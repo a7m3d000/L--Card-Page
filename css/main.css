@@ -1,0 +1,269 @@
+/* ================== Main Style ================== */
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+/* ================== Container ================== */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* ================== Cycles ================== */
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+    background-color: #2eca7f;
+
+}
+
+.top .fa-user-circle {
+    font-size: 70px;
+    margin-right: 10px;
+    color: #fff;
+
+}
+
+.top .fa-user-circle:hover {
+    cursor: pointer;
+
+}
+
+.top .title .header {
+    display: inline-block;
+    line-height: 1.5;
+    color: #fff;
+
+}
+
+.top .title .header .name {
+    font-size: 27px;
+    font-weight: bold;
+
+}
+
+.top .title .header .job {
+    font-size: 17px;
+
+}
+
+/* ------------- */
+.top .sociale span {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 13px;
+    margin-left: 5px;
+    display: inline-block;
+    color: #fff;
+
+}
+
+.top .sociale .social-icons {
+    display: flex;
+
+}
+
+.top .sociale .social-icons i {
+    font-size: 37px;
+    color: #fff;
+
+}
+
+.top .sociale .social-icons i:hover {
+    cursor: pointer;
+
+}
+
+.top .sociale .social-icons i:not(:first-child) {
+    margin-left: 15px;
+
+}
+
+/* ------------------------ */
+.meddle {
+    display: grid;
+    grid-template-columns: auto repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+
+}
+
+.meddle .left-icons ul {
+    list-style: none;
+    transform: translateY(13%);
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-right: 130px;
+    
+}
+
+.meddle .left-icons ul li {
+    margin-bottom: 70px;
+    font-size: 19px;
+    color: #72818c;
+    font-weight: 450;
+    position: relative;
+    
+}
+
+.meddle .left-icons ul li:hover {
+    margin-bottom: 70px;
+    font-size: 19px;
+    color: #2eca7f;
+    font-weight: 450;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.meddle .left-icons ul li:hover:before {
+    content: "";
+    position: absolute;
+    background-color: #2eca7f;
+    width: 40px;
+    height: 4.5px;
+    left: -60px;
+    top: 50%;
+    cursor: pointer;
+
+}
+
+.meddle .left-icons ul li:nth-child(1) {
+    color: #2eca7f;
+
+}
+
+.meddle .left-icons ul li:nth-child(1):before {
+    content: "";
+    position: absolute;
+    background-color: #2eca7f;
+    width: 40px;
+    height: 4.5px;
+    left: -60px;
+    top: 50%;
+
+}
+
+.meddle .left-icons ul li i {
+    margin-right: 15px;
+    font-size: 25px;
+    color: #44505b;
+    position: relative;
+
+}
+
+.meddle .left-icons ul li:nth-child(1) i {
+    color: #2eca7f;
+
+}
+
+.meddle .left-icons ul li:hover i {
+    color: #2eca7f;
+    cursor: pointer;
+
+}
+
+/* ------------- */
+.meddle .photo {
+    width: 900px;
+    height: 700px;
+    gap: 20px;
+    transform: translateY(20px);
+
+}
+
+.meddle .photo img {
+    max-width: 80%;
+    transform: translateX(50px);
+
+}
+
+/* ------------- */
+.info .who-i-am {
+    font-size: 37px;
+    font-weight: bold;
+    border-bottom: 3px solid #2eca7f;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    position: relative;
+    color: #44505b;
+
+}
+
+.info .who-i-am::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background-color: #2eca7f;
+    bottom: 0;
+    left: 0%;
+    transform: translateY(6.5px);
+    border-radius: 30px;
+    
+}
+
+.info .para p {
+    line-height: 1.5;
+    font-size: 19px;
+    color: #73767a;
+
+}
+
+.info .para .detailes {
+    font-size: 19px;
+    color: #73767a;
+
+}
+
+.info .para .detailes span {
+    color: #44505b;
+    margin-right: 7px;
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+.info .para .detailes span:not(:first-child) {
+    margin-top: 10px;
+
+}
+
+.info button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2eca7f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info button:hover {
+    cursor: pointer;
+
+}
+
+.info button i {
+    font-size: 30px;
+    margin-right: 10px;
+
+}
