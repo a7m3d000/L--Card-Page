@@ -3,6 +3,8 @@
 #### :bulb: Project Type: ***Challenge*** from ***Elzero Web School*** Website 
 #### :bulb: Project Level: ***Low*** -> ***L***
 
+#### :bulb: Challenge URL: [***Card Page***](https://elzero.org/frontend-advanced-user-card/)
+
 ---
 
 ## :clipboard: Basic Languages
