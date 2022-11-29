@@ -29,4 +29,4 @@ This is a [**Card Page**](https://card-p.vercel.app/) Website.
 
 # Website Screenshot
 
-![Card Page]()
+![Card Page](https://github.com/ahmedmohmd/card-page/blob/main/app-screenshot.png?raw=true)
